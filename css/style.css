@@ -1,0 +1,339 @@
+
+button {
+  background: transparent;
+  color: white;
+    font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 220px;
+  height: 50px;
+  margin-top: 30px;
+  transition: all 350ms linear;
+  border-color: -webkit-linear-gradient(white, #58738d);
+  border-width: 1px;
+  }
+
+button:hover {
+       background-color: white;
+       color: black;
+       cursor: pointer;
+  }
+
+.homelink {
+  background: transparent;
+  margin-left: 5px;
+  border-color: white;
+  border-width: 1px;
+}
+
+.homelink:hover {
+  background-color: white;
+}
+  
+
+#homebutton {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#oneliner {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+
+#main-page {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+
+    display: none;
+}
+#res-page {
+    height: 100%px;
+    width: 100%px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    display: none;
+
+}
+
+.maincontent {
+    padding-top: 40px;
+    display: none;
+}
+
+.rescontent {
+  display: none;
+}
+
+#proj-page {
+    height: 100%px;
+    width: 100%px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    display: none;
+
+}
+
+.projcontent {
+  display: none;
+}
+
+#title {
+  margin-top: 210px;
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  width: 100%;
+}
+
+#name {
+  background: -webkit-linear-gradient(white, #58738d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.supporting {
+color: black;
+background: radial-gradient(ellipse at bottom, grey 0%, silver 100%);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "lato", sans-serif;
+font-weight: 300;
+margin-top: 0px;
+
+}
+
+.supporting .col-sm-2, .supporting .col-sm-9, .supporting .col, .supporting .col-sm-12 {
+  float: left;
+  text-align: center;
+}
+
+.supporting .col-sm-9:not(#jobslast){
+    border-bottom: 1px solid black;
+    padding: 0px;
+    text-align: left;
+}
+
+#jobslast {
+  padding: 0px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+
+#traits{
+  text-align: left;
+  border-top: 1px solid black;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 0px;
+  margin-bottom: 10px;
+}
+
+#topofresume {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+#jobs {
+  text-align: left;
+  margin-top: 20px;
+}
+
+p.jobcompany {
+   font-weight: bold;
+   display: inline;
+  }
+
+p.jobname {
+  display: inline;
+  font-size: 11px;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-right: 8px;
+
+}
+
+p.datejobs {
+  display: inline;
+  font-size: 11px;
+  margin-left: 8px;
+  margin-right: 8px;
+
+}
+
+
+p.location {
+  display: inline;
+  font-size: 11px;
+  margin-left: 8px;
+  margin-right: 8px;
+
+}
+
+.coopjob {
+  margin-bottom: 30px;
+}
+
+.firstjobparagraph {
+  margin-top: 10px;
+}
+
+#tcolone {
+  width: 50%;
+  vertical-align: top;
+  margin-left: 100px;
+
+}
+
+#tcolone p {
+  line-height: 280%;
+  width: 92%;
+  margin: auto;
+  margin-left: 0;
+}
+
+td {
+  vertical-align: top;
+  padding-right: 0px;
+}
+
+#projectimages {
+  height: 160px;
+  width: 205px;
+}
+
+.TripPlan, .GameShop, .SoundOut, .IdeaBox, .toDoLista, .MiniJava {
+   
+    display: none;
+    color: white;
+
+}
+
+#javasubinfo {
+  width: 70%;
+}
+
+#javatitlehead {
+  text-align: center;
+}
+
+.mainprojinfo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.videos {
+  margin-top: 30px;
+}
+.subprojinfo {
+  display: inline-block;
+  text-align: left;
+}
+
+.indproject {
+color: white;
+}
+.aproject {
+  width: 230px;
+  height: 210px;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+   background: radial-gradient(#d7d2cc 30%, #304352 120%);
+  display: inline-block;
+  -webkit-border-radius: 9em;
+  -webkit-box-shadow: 0 0 0.05em 0.05em black;
+  -webkit-background-clip: padding-box;
+  -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+.aproject:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+
+}
+
+.aproject a {
+  text-decoration: none;
+  color: black;
+}
+
+.aproject img {
+  position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.aproject p {
+  margin-top: 250px;
+  text-align: center;
+  color: silver;
+}
+
+.homelinkfromres {
+  color: black;
+  border-size: 2px;
+  border-color: black;
+}
+
+
+.contactline a {
+margin-top: 0;
+color: white;
+font-size: 20px;
+}
+
+.mainprojinfo {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-bottom: 25px;
+}
+
+.mask{
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+}
+
+.homelinkfromres {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
