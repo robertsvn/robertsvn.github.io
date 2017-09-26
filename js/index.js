@@ -4,11 +4,6 @@ window.onbeforeunload = function(){ window.scrollTo(0,0); }
 
 $(document).ready(function() {
   
-  $( window ).scroll(function() {
-  $( "html" ).css( "background-size", "1920px 2300px" );
-  $( ".mask" ).css( "height", "970px" );
-
-});
 
   $("#main-page").css("height", "100%");
   $("#main-page").css("width", "100%");

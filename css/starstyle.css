@@ -1,6 +1,7 @@
 html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #8c8c8c -20%,  #1B2735 80%);
+  background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
 }

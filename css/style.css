@@ -1,4 +1,6 @@
-
+body {
+  font-family: "lato", sans-serif;
+}
 button {
   background: transparent;
   color: white;
@@ -228,7 +230,7 @@ td {
   width: 205px;
 }
 
-.TripPlan, .GameShop, .SoundOut, .IdeaBox, .toDoLista, .MiniJava {
+.TripPlan, .GameShop, .SoundOut, .IdeaBox, .toDoLista, .MiniJava, .JSmini {
    
     display: none;
     color: white;
@@ -325,10 +327,11 @@ font-size: 20px;
 }
 
 .mask{
-position:absolute;
+
 width:100%;
 height:100%;
 background:rgba(0,0,0,0.6);
+background-attachment: fixed;
 }
 
 .homelinkfromres {
@@ -336,4 +339,43 @@ background:rgba(0,0,0,0.6);
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.javascriptproj {
+  display: inline-block;
+  width: 420px;
+  margin: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+.javascriptprojtext {
+width: 270px;
+text-align: center;
+
+margin: auto;
+margin-bottom: 25px;
+position: relative;
+}
+
+.javascriptprojvid {
+
+}
+
+#javascriptsubinfo {
+
+text-align: center;
+
+}
+
+#projectholder {
+  text-align: center;
+}
+
+#calcprojcss {
+  margin-left: 75px;
+  margin-right: 75px;
+
 }
