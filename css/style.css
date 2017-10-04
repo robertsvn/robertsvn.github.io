@@ -228,6 +228,7 @@ td {
 #projectimages {
   height: 160px;
   width: 205px;
+  margin-top: 25px;
 }
 
 .TripPlan, .GameShop, .SoundOut, .IdeaBox, .toDoLista, .MiniJava, .JSmini {
@@ -262,21 +263,21 @@ td {
 color: white;
 }
 .aproject {
-  width: 230px;
-  height: 210px;
+  width: 350px;
+  height: 270px;
   position: relative;
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 80px;
-   background: radial-gradient(#d7d2cc 30%, #304352 120%);
   display: inline-block;
-  -webkit-border-radius: 9em;
-  -webkit-box-shadow: 0 0 0.05em 0.05em black;
-  -webkit-background-clip: padding-box;
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid silver;
   -webkit-transition: transform 0.5s ease-in-out;
     -moz-transition: transform 0.5s ease-in-out;
     transition: transform 0.5s ease-in-out;
 }
+
+
 
 .aproject:hover {
     -moz-transform: scale(1.15);
@@ -292,17 +293,8 @@ color: white;
   color: black;
 }
 
-.aproject img {
-  position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
 .aproject p {
-  margin-top: 250px;
+  margin-top: 20px;
   text-align: center;
   color: silver;
 }
